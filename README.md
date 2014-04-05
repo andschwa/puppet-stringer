@@ -8,17 +8,15 @@ self-hosted, anti-social RSS reader.".
 
 Stringer needs several things to get going:
 
-	* dependent packages (not yet implemented, want to test
-      one-by-one)
-	* separate user and group (done using resources)
-	* the Stringer source code (done using
+- dependent packages (not yet implemented, want to test one-by-one)
+- separate user and group (done using resources)
+- the Stringer source code (done using
       [vcsrepo](https://github.com/puppetlabs/puppetlabs-vcsrepo))
-	* an rbenv installation with ruby 2.0.0 (using
+- an rbenv installation with ruby 2.0.0 (using
       [alup/rbenv](https://github.com/alup/puppet-rbenv))
-	* necessary environment variables in bashrc (done using exec
-      resource)
-	* cron job to update feeds (done using cron resource)
-	* `foreman start` command to get going (done, but timing is iffy)
+- necessary environment variables in bashrc (done using exec resource)
+- cron job to update feeds (done using cron resource)
+- `foreman start` command to get going (done, but timing is iffy)
 
 This is a very rough first draft, which needs significant
 re-factoring, tests, specs, etc., and more importantly, to actually be
